@@ -4,13 +4,7 @@ import dev.fritz2.core.render
 import dev.fritz2.routing.routerOf
 import kotlinx.coroutines.flow.map
 
-@JsModule("bootstrap/dist/css/bootstrap.min.css")
-@JsNonModule
-external val bootstrapCss: dynamic
-
 fun main() {
-    bootstrapCss
-
     val router = routerOf(mapOf(
         "page" to "home" // "home" is the default page.
     ))
