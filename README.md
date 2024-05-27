@@ -1,6 +1,7 @@
 # kotlin-js-demos
 
 Kotlin for JavaScript のデモ集です。
+Kotlin for JavaScript はまだまだ日本では流行ってないように思いますが、[すでに stable](https://kotlinlang.org/docs/components-stability.html) であり、日々の開発業務に活用可能です。
 
 kotlin for JavaScript を使ってみようと思っている人の一助になれば幸いです。
 
@@ -18,7 +19,6 @@ kotlin for JavaScript を使ってみようと思っている人の一助にな�
 - [02-frameworks](02-frameworks/README.md) 今あるフレームワークについて解説します
   - [02-fritz2/01-fritz2-basic](02-frameworks/02-fritz2/01-fritz2-basic/README.md) fritz2 の基本的な挙動について解説します
   - [02-fritz2/02-fritz2-router](02-frameworks/02-fritz2/02-fritz2-router/README.md) fritz2 のルーターを触ってみます。
-
 
 ## FAQ
 

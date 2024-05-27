@@ -62,6 +62,19 @@ React 自体の学習コストが高いという面はあり、react を使う�
 
 一方で、react 自体の人気が高いため、情報は豊富ですし、MUI などのコンポーネントライブラリも非常に充実しています。
 
+### 05-compose
+
+Compose は、JetBrains が開発している、Android 用の UI フレームワークです。
+Compose には Compose for web というものがあり、これを使うことで、Web アプリケーションを作成することができます。
+
+Compose for web はまだ開発中であり、安定版はリリースされていません。
+Compose for web は、Compose for Android と同じく、JetBrains が開発しているため、継続性には期待できるでしょう。
+
+Compose for web は Kotlin/Wasm で利用することが現在は前提となっています。
+Kotlin/Wasm はまだまだ開発途中であり、安定版はリリースされていません。
+
+- https://github.com/JetBrains/compose-multiplatform/tree/master/examples/html
+
 ## どのフレームワークを選ぶか
 
 Doodle は独特なので、ちょっと違うなと思ったら他のものを選ぶのが良いでしょう。
