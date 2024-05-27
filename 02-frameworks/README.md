@@ -26,6 +26,10 @@ Star の数は 1.2k  です。
 
 [Documentation](https://www.fritz2.dev/docs/) も充実していて、困ることはないでしょう。
 
+見た目をハンドリングしてくれないので、bootstrap や tailwind を使うことになります。
+結果的に、bootstrap や tailwind の知識も必要になりますし、bootstrap や tailwind の複雑な class 名を書いていかなくてはならず、煩雑です。
+react-mui 等を使う場合に比べるとちょっとごちゃついてしまいます。
+
 2024年5月現在、Star数は 615 です。最新版は 1.0-RC17 です。1.0 が出ると安心して使えるようになるでしょう。
 1.0へのマイルストーンは https://github.com/jwstegemann/fritz2/milestones で示されています。
 [@jwstegemann](https://github.com/jwstegemann) 氏を中心に、チームで開発が進められているようです。
