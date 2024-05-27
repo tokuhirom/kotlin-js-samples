@@ -100,6 +100,23 @@ fun main() {
 
 `./gradlew jsRun -t` の `-t` オプションは開発モードに入ることを示していて、このオプションをつけておくと、コードを変更したときに自動的にビルドしてブラウザをリロードしてくれます。
 
+## 配布する
+
+```shell
+./gradlew jsBrowserDistribution
+```
+
+とすると、`build/dist/productionExecutable/` に配布用のファイルが生成されます。
+
+![img_3.png](img_3.png)
+
+今回のデモの場合は、以下のような感じで生成されます。思ったより小さいファイルが生成されることがわかります。
+
+![img_2.png](img_2.png)
+
+github pages などにデプロイする場合は、このコマンドを利用して、配布用のファイルを生成してからデプロイすると良いでしょう。
+(通常通り、`./gradlew build` しても OK)
+
 ## SEE ALSO
 
 - Kotlin/JS の gradle の設定については公式ドキュメントの [Set up a Kotlin/JS project﻿
