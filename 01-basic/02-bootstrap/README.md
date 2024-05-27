@@ -55,3 +55,5 @@ fun main() {
 
 ![img.png](img.png)
 
+このほかに、`webpack.config.d` に設定をかいて、webpack のレイヤーで処理する方法もあります。
+[fritz2-tailwind-template](https://github.com/jwstegemann/fritz2-tailwind-template/tree/main) のやり方が参考になるでしょう。
