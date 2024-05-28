@@ -84,14 +84,7 @@ fun main() {
 
                 int {id ->
                     val user = users[id]
-                    if (user!= null) {
-                        Text("User: $user")
-                    } else {
-                        Text("User not found")
-                        NavLink(to = "/user") {
-                            Text("Back")
-                        }
-                    }
+                    Text("User: $user")
                 }
                 noMatch {
                     Ul {

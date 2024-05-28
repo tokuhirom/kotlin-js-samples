@@ -15,7 +15,7 @@ https://github.com/JetBrains/compose-multiplatform/tree/master/tutorials/HTML/Ge
 
 ```
 plugins {
-    kotlin("multiplatform") version "1.9.24"
+    kotlin("multiplatform") version "2.0.0"
     id("org.jetbrains.compose") version "1.6.10"
 }
 
