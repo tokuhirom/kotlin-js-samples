@@ -89,4 +89,9 @@ suspend fun main() {
 }
 ```
 
+## coroutine と ktor-client
 
+ktor-client の API は coroutine を使っているので、suspend 関数です。
+
+例えば kotlin-react-dom の `useEffect` は suspend 関数を受け取れません。
+compose-html を使う場合は、suspend 関数を受け取れるので便利です。

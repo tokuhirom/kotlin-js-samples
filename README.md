@@ -1,6 +1,6 @@
-# kotlin-js-demos
+# kotlin-js-samples
 
-Kotlin for JavaScript のデモ集です。
+Kotlin for JavaScript のサンプル集です。
 Kotlin for JavaScript はまだまだ日本では流行ってないように思いますが、[すでに stable](https://kotlinlang.org/docs/components-stability.html) であり、日々の開発業務に活用可能です。
 
 kotlin for JavaScript を使ってみようと思っている人の一助になれば幸いです。
@@ -36,3 +36,4 @@ kotlin for JavaScript を使ってみようと思っている人の一助にな�
 
 このエラーは、`kotlinUpgradePackageLock` タスクを実行することで解消できそうだけどうまく動かない時もある。
 そんなときは、 `rm kotlin-js-store/yarn.lock` すると直ります。 
+
