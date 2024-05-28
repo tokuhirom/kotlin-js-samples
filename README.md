@@ -16,6 +16,7 @@ kotlin for JavaScript を使ってみようと思っている人の一助にな�
 - [01-basic](01-basic/README.md)
   - [hello, world](01-basic/01-hello-world/README.md) Kotlin/JS を利用した hello,world について開設します。
   - [bootstrap](01-basic/02-bootstrap/README.md) CSS フレームワークとして bootstrap を利用する方法について解説します。
+  - [ktor-client](01-basic/03-ktor-client/README.md) ktor-client を利用してサーバーにアクセスする方法について解説します。
 - [02-frameworks](02-frameworks/README.md) 今あるフレームワークについて解説します
   - [02-fritz2/01-fritz2-basic](02-frameworks/02-fritz2/01-fritz2-basic/README.md) fritz2 の基本的な挙動について解説します
   - [02-fritz2/02-fritz2-router](02-frameworks/02-fritz2/02-fritz2-router/README.md) fritz2 のルーターを触ってみます。
