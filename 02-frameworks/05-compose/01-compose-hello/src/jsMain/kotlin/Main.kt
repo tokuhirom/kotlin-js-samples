@@ -14,20 +14,20 @@ fun main() {
     var count: Int by mutableStateOf(0)
 
     renderComposable(rootElementId = "root") {
-        Div({ style { padding(25.px) } }) {
+        Div {
+            Text("$count")
+        }
+        Div {
             Button(attrs = {
                 onClick { count -= 1 }
             }) {
-                Text("-")
-            }
-            Span({ style { padding(15.px) } }) {
-                Text("$count")
+                Text("Decrement")
             }
 
             Button(attrs = {
                 onClick { count += 1 }
             }) {
-                Text("+")
+                Text("Increment")
             }
         }
     }
