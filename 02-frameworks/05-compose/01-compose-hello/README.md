@@ -2,6 +2,7 @@
 
 Kotlin/JS と compose-html を使って、Hello, World を表示するサンプルです。
 
+このサンプルは以下のリポジトリを参考にしています。
 https://github.com/JetBrains/compose-multiplatform/tree/master/tutorials/HTML/Getting_Started
 
 以下のようにして実行できます。
