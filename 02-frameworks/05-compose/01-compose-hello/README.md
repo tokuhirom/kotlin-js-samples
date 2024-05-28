@@ -1,6 +1,6 @@
 # 05-compose/01-compose-hello
 
-Compose for Web を使って、Hello, World を表示するサンプルです。
+Kotlin/JS と compose-html を使って、Hello, World を表示するサンプルです。
 
 https://github.com/JetBrains/compose-multiplatform/tree/master/tutorials/HTML/Getting_Started
 
