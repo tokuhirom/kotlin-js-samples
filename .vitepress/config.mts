@@ -31,6 +31,7 @@ export default defineConfig({
             items: [
               { text: 'kotlin-react-dom の基本', link: '/02-frameworks/04-react/01-react-hello' },
               { text: 'kotlin-react-dom と ktor を組み合わせる', link: '/02-frameworks/04-react/02-react-ktor' },
+              { text: 'react-router を使う', link: '/02-frameworks/04-react/03-react-router' },
             ]
           },
           {
