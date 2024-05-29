@@ -6,18 +6,17 @@ plugins {
 kotlin {
     js {
         browser {
-            commonWebpackConfig {
-                cssSupport {
-                    enabled.set(true)
-                }
-            }
             binaries.executable()
         }
     }
-
     sourceSets {
         val jsMain by getting {
             dependencies {
+                implementation(project.dependencies.platform("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:1.0.0-pre.754"))
+                implementation("org.jetbrains.kotlin-wrappers:kotlin-react")
+                implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
+                implementation("org.jetbrains.kotlin-wrappers:kotlin-react-use")
+
                 implementation(project.dependencies.platform("io.ktor:ktor-bom:2.3.11"))
                 implementation("io.ktor:ktor-client-core")
                 implementation("io.ktor:ktor-client-js")
