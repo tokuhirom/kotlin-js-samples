@@ -1,0 +1,19 @@
+{
+  "name": "kotlin-js-demos",
+  "version": "1.0.0",
+  "description": "Kotlin for JavaScript のサンプル集です。 Kotlin for JavaScript はまだまだ日本では流行ってないように思いますが、[すでに stable](https://kotlinlang.org/docs/components-stability.html) であり、日々の開発業務に活用可能です。",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.2.2",
+    "vue": "^3.4.27"
+  }
+}

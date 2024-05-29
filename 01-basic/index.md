@@ -1,3 +1,5 @@
+# Kotlin/JS って?
+
 Kotlin は Kotlin/JVM, Kotlin/JS, Kotlin/Native の3つのプラットフォームをサポートしています。
 
 - Kotlin/JVM は、JVM をターゲットにしてコード生成をします。

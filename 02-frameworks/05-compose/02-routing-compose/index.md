@@ -1,4 +1,4 @@
-# 05-compose/02-routing-compose
+# routing-compose の使い方
 
 Kotlin/JS と compose-html の組み合わせでは、ルーターが欲しくなります。
 が、ルーターが compose-html では提供されていないようです。
