@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/kotlin-js-samples/',
   title: "Kotlin JS Samples",
   description: "Sample code for Kotlin/JS",
   ignoreDeadLinks: 'localhostLinks',
