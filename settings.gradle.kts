@@ -10,9 +10,12 @@ include(":01-basic:03-ktor-client")
 
 include(":02-frameworks:02-fritz2:01-fritz2-basic")
 include(":02-frameworks:02-fritz2:02-fritz2-router")
+
 include(":02-frameworks:04-react:01-react-hello")
 include(":02-frameworks:04-react:02-react-ktor")
 include(":02-frameworks:04-react:03-react-router")
+include(":02-frameworks:04-react:04-react-mui")
+
 include(":02-frameworks:05-compose:01-compose-hello")
 include(":02-frameworks:05-compose:02-routing-compose")
 
