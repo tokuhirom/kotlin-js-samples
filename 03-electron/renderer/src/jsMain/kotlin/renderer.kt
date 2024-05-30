@@ -1,12 +1,9 @@
 import js.promise.Promise
-import kotlinx.browser.document
 import kotlinx.browser.window
 import react.Fragment
 import react.create
 import react.dom.client.createRoot
 import react.dom.html.ReactHTML
-import web.timers.setInterval
-import kotlin.time.Duration.Companion.seconds
 
 external interface Versions {
     fun node(): String
