@@ -1,6 +1,10 @@
 import js.promise.Promise
 import kotlinx.browser.document
 import kotlinx.browser.window
+import react.Fragment
+import react.create
+import react.dom.client.createRoot
+import react.dom.html.ReactHTML
 import web.timers.setInterval
 import kotlin.time.Duration.Companion.seconds
 
@@ -11,7 +15,7 @@ external interface Versions {
     fun ping(): Promise<String>
 }
 
-suspend fun main() {
+fun main() {
     try {
         val hoge = Hoge("hoge", 33)
 
@@ -25,14 +29,12 @@ suspend fun main() {
             println("Ping response(): $it")
         }
 
-        document.getElementById("root")?.let {root ->
-            setInterval(1.seconds) {
-                println("invoked timer...")
-                val div = document.createElement("div")
-                div.textContent = "Hello, World! WOWYAY!! ASAGE $hoge"
-                root.appendChild(div)
+        val container = web.dom.document.getElementById("root") ?: error("Couldn't find root container!")
+        createRoot(container).render(Fragment.create {
+            ReactHTML.h1 {
+                +"Hello, Electron+React+Kotlin/JS!"
             }
-        }
+        })
         println("Hello, electron World! $hoge!! mjs!! ん")
     } catch (e: Throwable) {
         console.error(e)
