@@ -29,7 +29,7 @@ def main():
         print(f"Cleaning target/{d} directory")
         shutil.rmtree(os.path.join(target_dir, d), ignore_errors=True)
 
-    tasks = ['jsDevelopmentExecutableCompileSync']
+    tasks = [':03-electron:main:jsDevelopmentExecutableCompileSync', ':03-electron:renderer:assemble']
 
     # Run the gradle task to compile the Kotlin/JS code
     # This will make all files before running the electron app

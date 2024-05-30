@@ -33,12 +33,12 @@ tasks.register<Copy>("copyJsFiles") {
     group = "custom"
     description = "Copy JS files to target directory after compileSync"
 
-    from(projectDir.resolve("build/compileSync/js/main/developmentExecutable/kotlin"))
+    from(projectDir.resolve("build/dist/js/productionExecutable/"))
     into(projectDir.resolve("../target/renderer/"))
 
-    dependsOn("jsDevelopmentExecutableCompileSync")
+    dependsOn("assemble")
 }
 
-tasks.named("jsDevelopmentExecutableCompileSync") {
+tasks.named("assemble") {
     finalizedBy("copyJsFiles")
 }

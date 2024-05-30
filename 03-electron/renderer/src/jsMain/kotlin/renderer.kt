@@ -12,5 +12,5 @@ fun main() {
             root.appendChild(div)
         }
     }
-    println("Hello, electron World! $hoge!! mjs!! ん?ほげ")
+    println("Hello, electron World! $hoge!! mjs!! ん")
 }
