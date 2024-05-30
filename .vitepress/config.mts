@@ -42,6 +42,12 @@ export default defineConfig({
             ]
           }
         ]
+      },
+      {
+        text: 'Kotlin/JS と Electron',
+        items: [
+          { text: 'Kotlin/JS と Electron でデスクトップアプリを作る', link: '/03-electron' },
+        ]
       }
     ],
 
