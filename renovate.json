@@ -3,5 +3,10 @@
   "extends": [
     "config:recommended"
   ],
-  "automerge": true
+  "automerge": true,
+  "postUpgradeTasks": {
+    "commands": [
+      "./gradlew kotlinUpgradeYarnLock"
+    ]
+  }
 }
