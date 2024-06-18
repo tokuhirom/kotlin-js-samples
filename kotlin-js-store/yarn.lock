@@ -427,10 +427,10 @@
     prop-types "^15.8.1"
     react-is "^18.2.0"
 
-"@mui/x-tree-view@7.6.1":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-7.6.1.tgz#c824bc9845d6b40ca5e72f0c89e86d5f58552417"
-  integrity sha512-FR8GUTMG0GgStHj+TDs2UzTln6SeWcGdVj62CAcQGVW61RpVRvPgBhYH3+g0SVtps6FYQxe/pvi83eLwMWW0Fw==
+"@mui/x-tree-view@7.6.2":
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/@mui/x-tree-view/-/x-tree-view-7.6.2.tgz#bc8fe46b2971539ec43056ae12a3805d15c13d92"
+  integrity sha512-0LBoKUQvMzNzJN7UmGqGV4A3NpRxB8liPrjQMfkbI6LrXBbDlqyEdJWRseK1RzxYxTfH71HqW9Z3E2wS62P1Sg==
   dependencies:
     "@babel/runtime" "^7.24.6"
     "@mui/base" "^5.0.0-beta.40"
