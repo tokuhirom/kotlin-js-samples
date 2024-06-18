@@ -13,24 +13,27 @@ import kotlinx.dom.clear
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class ResponseEntity(val name: String)
+data class ResponseEntity(
+    val name: String,
+)
 
 suspend fun main() {
-    val client = HttpClient(Js) {
-        install(ContentNegotiation) {
-            json()
+    val client =
+        HttpClient(Js) {
+            install(ContentNegotiation) {
+                json()
+            }
+            install(Logging) {
+                level = LogLevel.INFO
+            }
         }
-        install(Logging) {
-            level = LogLevel.INFO
-        }
-    }
 
     val res = client.get("./data.json")
     println(res.status.value)
     println("content-type: ${res.contentType()}")
 
     try {
-        val data:ResponseEntity = res.body()
+        val data: ResponseEntity = res.body()
         println(data)
 
         val div = document.createElement("div")
