@@ -2,7 +2,6 @@ package org.example
 
 import emotion.react.css
 import js.errors.JsError
-import js.objects.jso
 import react.Component
 import react.FC
 import react.Fragment
@@ -10,6 +9,7 @@ import react.Props
 import react.create
 import react.dom.client.createRoot
 import react.dom.html.ReactHTML.div
+import react.router.RouteObject
 import react.router.RouterProvider
 import react.router.dom.NavLink
 import react.router.dom.createHashRouter
@@ -18,6 +18,7 @@ import web.cssom.Display
 import web.cssom.JustifyContent
 import web.cssom.NamedColor
 import web.cssom.None
+import web.cssom.path
 import web.cssom.px
 import web.dom.document
 import web.prompts.alert
@@ -104,19 +105,19 @@ fun main() {
                     router =
                         createHashRouter(
                             arrayOf(
-                                jso {
-                                    path = "/"
-                                    Component = RootContent
-                                },
-                                jso {
-                                    path = "/about"
-                                    Component = AboutContent
-                                },
-                                jso {
-                                    path = "/fail"
-                                    Component = FailContent
-                                    ErrorBoundary = ErrorPage
-                                },
+                                RouteObject(
+                                    path = "/",
+                                    Component = RootContent,
+                                ),
+                                RouteObject(
+                                    path = "/about",
+                                    Component = AboutContent,
+                                ),
+                                RouteObject(
+                                    path = "/fail",
+                                    Component = FailContent,
+                                    ErrorBoundary = ErrorPage,
+                                ),
                             ),
                         )
                 }

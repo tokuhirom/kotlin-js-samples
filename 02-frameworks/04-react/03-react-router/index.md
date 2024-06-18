@@ -38,10 +38,9 @@ val ErrorPage = FC<Props> {
 以下のように、ErrorBoundary を設定するとエラー処理が出来ます。
 
 ```kotlin
-jso {
-    path = "/fail"
-    Component = FailContent
-    ErrorBoundary = ErrorPage
-}
+RouteObject(
+    path = "/fail",
+    Component = FailContent,
+    ErrorBoundary = ErrorPage,
+)
 ```
-
