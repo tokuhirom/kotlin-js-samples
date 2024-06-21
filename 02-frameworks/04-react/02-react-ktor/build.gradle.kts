@@ -17,7 +17,7 @@ kotlin {
                 implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
                 implementation("org.jetbrains.kotlin-wrappers:kotlin-react-use")
 
-                implementation(project.dependencies.platform("io.ktor:ktor-bom:2.3.11"))
+                implementation(project.dependencies.platform("io.ktor:ktor-bom:2.3.12"))
                 implementation("io.ktor:ktor-client-core")
                 implementation("io.ktor:ktor-client-js")
                 implementation("io.ktor:ktor-serialization-kotlinx-json")
