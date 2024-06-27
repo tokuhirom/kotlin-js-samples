@@ -64,6 +64,7 @@ fun main() {
                     }
                 }
                 Grid {
+                    item = true
                     xs = 8
 
                     h1 {
