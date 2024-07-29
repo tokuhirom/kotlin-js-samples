@@ -16,7 +16,6 @@ import react.dom.client.createRoot
 import react.dom.html.ReactHTML
 import react.dom.html.ReactHTML.div
 import react.dom.html.ReactHTML.h1
-import react.use.useAsyncEffect
 import react.useEffect
 import react.useState
 import web.cssom.PropertyName.Companion.container
@@ -36,7 +35,7 @@ val client = HttpClient() {
 val MyContent = FC {
     val (name, setName) = useState<String?>(null)
 
-    useAsyncEffect {
+    useEffect {
         val res = client.get("./data.json")
         val data = res.body<ResponseEntity>()
         setName(data.name)
