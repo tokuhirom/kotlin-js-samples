@@ -2,8 +2,10 @@
 
 kotlin-react を使う時でも ktor-client を使うと便利です。
 
-ktor-client は suspend 関数を使うため、react の `useEffect` とは相性が悪いですが、
-kotlin-react-use に含まれる `useAsyncEffect` を使うことで、簡単に使うことができます。
+~~ktor-client は suspend 関数を使うため、react の `useEffect` とは相性が悪いですが、
+kotlin-react-use に含まれる `useAsyncEffect` を使うことで、簡単に使うことができます。~~
+
+最近のKotlin-Wrappersではデフォルトの `useEffect` が　suspend function　に対応しています。
 
 ## セットアップ
 
@@ -13,7 +15,7 @@ JSON を取り出すので、kotlinx.serialization を使うために、`kotlin(
 
 ## コード
 
-`useAsyncEffect` を使って、JSON を取得する例です。
+`useEffect` を使って、JSON を取得する例です。
 
 <<< ./src/jsMain/kotlin/Main.kt{kotlin}
 
