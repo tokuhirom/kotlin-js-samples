@@ -49,6 +49,12 @@ export default defineConfig({
         items: [
           { text: 'Kotlin/JS と Electron でデスクトップアプリを作る', link: '/03-electron' },
         ]
+      },
+      {
+        text: 'Kotlin/JS と Webpack',
+        items: [
+          { text: 'contenthash を使ってキャッシュしないようにする', link: '/04-webpack/01-contenthash' },
+        ]
       }
     ],
 

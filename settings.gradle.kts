@@ -21,3 +21,5 @@ include(":02-frameworks:05-compose:02-routing-compose")
 
 include(":03-electron:main")
 include(":03-electron:renderer")
+
+include(":04-webpack:01-contenthash")
