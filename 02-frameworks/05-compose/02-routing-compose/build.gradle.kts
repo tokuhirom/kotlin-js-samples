@@ -22,7 +22,7 @@ kotlin {
                 implementation(compose.html.core)
                 implementation(compose.runtime)
 
-                implementation("app.softwork:routing-compose:0.2.14")
+                implementation("app.softwork:routing-compose:0.4.0")
             }
         }
     }
