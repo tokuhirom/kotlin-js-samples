@@ -17,6 +17,6 @@
     "vue": "^3.4.37"
   },
   "devDependencies": {
-    "electron": "^31.6.0"
+    "electron": "^32.0.0"
   }
 }
