@@ -4,10 +4,5 @@
     "config:recommended"
   ],
   "automerge": true,
-  "postUpgradeTasks": {
-    "commands": [
-      "./gradlew kotlinUpgradeYarnLock"
-    ]
-  },
   "schedule": ["on the 15th day of the month"]
 }
