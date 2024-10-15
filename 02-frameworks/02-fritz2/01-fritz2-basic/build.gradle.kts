@@ -17,7 +17,7 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation("dev.fritz2:core:1.0-RC18")
+                implementation("dev.fritz2:core:1.0-RC19.1")
                 implementation(npm("bootstrap", "5.1.0"))
             }
         }
