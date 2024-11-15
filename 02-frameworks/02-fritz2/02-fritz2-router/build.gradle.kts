@@ -20,7 +20,7 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation("dev.fritz2:core:1.0-RC19.1")
+                implementation("dev.fritz2:core:1.0-RC19.3")
             }
         }
     }
